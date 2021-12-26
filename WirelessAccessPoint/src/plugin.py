@@ -863,4 +863,4 @@ def main(session, **kwargs):
 
 
 def Plugins(**kwargs):
-	return [PluginDescriptor(name=_("Wireless Access Point"), description=_("Using a Wireless module as access point."), where=PluginDescriptor.WHERE_PLUGINMENU, needsRestart=True, fnc=main)]
+	return [PluginDescriptor(name=_("Wireless Access Point"), description=_("Using a Wireless module as access point."), where=PluginDescriptor.WHERE_PLUGINMENU, icon="WirelessAccessPoint.png", needsRestart=True, fnc=main)]
